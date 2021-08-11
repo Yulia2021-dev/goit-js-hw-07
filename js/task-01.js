@@ -13,7 +13,7 @@ const categories = document.getElementById('categories');
 // console.log('В списке ' + categories.children.length + ' категории');
 
 Array.from(categories.children).forEach(item => {
- console.log(`Категория - ${element.firstElementChild.textContent}, Количество элементов - ${element.lastElementChild.children.length}`,
+ console.log(`Категория - ${item.firstElementChild.textContent}, Количество элементов - ${item.lastElementChild.children.length}`,
     )
 });
 
