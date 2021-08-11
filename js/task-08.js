@@ -19,8 +19,6 @@ function createNewColor() {
 }
 
 function generateBoxes() {
-  // Paste your code here
-
   const input = document.getElementsByTagName('input');
   const amount = input[0].value;
   const cols = createBoxes(amount);
@@ -32,7 +30,6 @@ function generateBoxes() {
 }
 
 function destroyBoxes() {
-  
   const boxList = document.getElementById('boxes');
   while (boxList.firstChild) {
     boxList.firstChild.remove();
